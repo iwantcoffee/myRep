@@ -1,0 +1,183 @@
+body{
+	margin: 0px;
+	background-color: #000000;
+	background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(/home/user55/Public/noy/images/back.jpg);
+	height: 100%;
+	font-family: 'Helvetica Neue', Helvetica;
+}
+a{
+	font-weight: bold;
+	text-decoration: none;
+	color: #888;
+	font: sans-serif;
+}
+div{
+	display: block;
+}
+
+.login{
+}
+
+.login button{
+	border: 0px;
+    height: 36px;
+    display: inline-block;
+    border-radius: 4px;
+    position: absolute;
+    right: 25px;
+    top: 15px;
+    padding: 0 43px;
+    font-size: 15px;
+    font-weight: bold;
+    outline: none;
+    width:131px;
+}
+.main-form{
+	border-radius: 8px;
+	background-color: #ffffff;
+    margin: 220px auto;
+    height: 533px;
+    width: 400px;
+}
+.inside-header{
+	display: block;
+	padding: 15px;
+    margin: 10px;
+    margin-bottom: 0px;
+    background-color: #ffffff;
+    text-align: center;
+}
+p.inside-header{
+	 text-align:center;
+	 margin: 0px auto 0px auto;
+	 background-color: #ffffff;
+	 padding: 0px;
+	 font-size: 12px;
+	 font-weight: bold;
+}
+
+
+img{
+	text-align: center;
+	display: block;
+	margin: auto;
+	height:100%;
+}
+
+button{
+	display: block;
+	border: 0px;
+	width: 268px;
+	height:37px ;
+	text-align: center;
+	padding:7px;
+	margin: 10px auto 10px auto;
+
+}
+ button.facebook{
+	background-color: #4267b2;
+}
+
+button.google{ 
+	background-color: #4285f4;
+}
+
+div.button-text{
+	display: inline-block;
+	margin:0;
+	height: 100%;
+
+}
+
+div.button-text p{
+	color: #ffffff;
+	font-size: 16px;
+	position:relative;
+	margin:0;
+	font-weight:bold;
+	padding:3px;
+}
+
+div.button-img	{ 
+	display: inline-block;
+	width: 23px;
+	height: 100%;
+	float:left;
+	border-right: 100%; /* 1:1 Aspect Ratio */
+    position: relative;
+}
+
+button.google div.button-img{
+	background-color: #ffffff;
+	border-radius: 3px;
+	padding:3px;
+	box-sizing: inherit;
+} 
+
+button.google div.button-img img{
+	box-sizing: inherit;
+} 
+
+
+div.button-img img{
+	width: 100%;
+	height: 100%;
+}
+
+h1{
+	text-align: center;	
+	margin-bottom:5px;
+}
+input{
+	border-radius: 4px;
+	display: block;
+	margin: 10px auto 10px auto;
+	font-size: 15px;
+	width:248px;
+	padding: 10px ;
+	background-color: #f0f0f0;
+	border:0px;
+}
+input[type=submit]{
+	text-align: center;
+	box-sizing: content-box;
+	width:248px;
+	background-color: #bd081c;
+	color:#ffffff;
+	font-weight: bold;	
+}
+.bottom-writing{
+	color: #aaa;
+	font: sans-serif;
+	font-size: 12px;
+	text-align: center;
+}
+.bottom-writing p{
+	margin:17px 45px 0px 45px;
+}
+.bottom{
+	display: block;
+	text-align: center;
+}
+.bottom ul{
+	list-style: none;
+	padding:0;
+	display: block;
+	margin:0 auto;
+	position: relative;
+	bottom:10px;
+}
+.bottom{
+	list-style: none;
+	padding:0;
+	margin:0 auto 0 auto;
+}
+
+.bottom ul li{
+	display: inline;
+	padding:0 10px;
+	font-size: 10px;
+}
+.bottom ul li a{
+	color: #ffffff;
+}
